@@ -2,6 +2,7 @@
 # Estructura if
 #####
 
+#En esta estructura veremos
 edad=int(input("Dime tu edad: "))
 
 if edad>=18:
