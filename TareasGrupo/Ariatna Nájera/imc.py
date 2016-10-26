@@ -12,3 +12,5 @@ elif 25 <= imc < 30:
 	print("Tienes sobrepeso mi chavo: ", imc)
 elif 30 <= imc:
 	print("Alerta, tienes obesidad: ", imc)
+
+print("Tarea IMC")
