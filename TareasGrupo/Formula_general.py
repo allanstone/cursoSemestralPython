@@ -1,2 +1,0 @@
-#Programa para calcular las raíces de un polinomio de segundo grado usando la formula general
-print("Hola, este es un programa para calcular raíces, dame el valor de los coeficientes de tu polinomio")
