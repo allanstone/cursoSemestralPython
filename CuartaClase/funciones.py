@@ -22,6 +22,19 @@ def suma3(a=0,b=0,*variables):
 	for x in variables:
 		acum+=x
 	return acum+a+b
+
+def suma4(a=0,b=0,**llavevalor):
+	if llavevalor is not None:
+		for llave,valor in llavevalor.items():
+			print("Llave: ",llave," Valor: ",valor)
+	return a+b
+
+print(suma4())
+print(suma4(1))
+print(suma4(1,3))
+print(suma4(nombre="alan",fruta="mango"))
+print(suma4())
+
 '''
 #print(suma(a))
 print(suma3())
@@ -30,7 +43,7 @@ print(suma3(a,b))
 print(suma3(a,b,c))
 print(suma3(a,b,c,d))
 print(suma3(a,b,c,d,e,4,6,7,7,8,9,0,0,3,5))
-'''
+
 #print(suma(a))
 print(suma2(a))
 print(suma2(b=3,a=4))
@@ -63,3 +76,4 @@ print("El factorial de 2: ",factRec(2))
 print("El factorial de 3: ",factRec(3))
 print("El factorial de 5: ",factRec(5))
 print("El factorial de 1000: ",factRec(1000))
+'''

@@ -1,6 +1,6 @@
-#########
-#  Listas
-#########
+########
+# Listas
+########
 
 #Son tipos de datos llamados colecciones, porque contienen otros tipos de datos y aparte a si mismos
 lista=[]

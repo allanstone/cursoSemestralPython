@@ -1,6 +1,6 @@
-#######
+########
 # Tuplas
-#######
+########
 
 #Las tuplas son como las listas pero con la característica de inmutabilidad
 #de las cadenas
@@ -44,15 +44,4 @@ a,b,c=t4
 print(a,b,c)
 
 
-###Conjuntos
 
-#Parecidos a las tuplas pero sin elementos repetidos
-numeros={1,2,2,3,4}
-print(type(numeros))
-#Podemos crearlos apartir de una tupla
-numeros2=set((1,4,10,3))
-
-#Operaciones con conjuntos
-print(numeros-numeros2)
-print(numeros|numeros2)
-print(numeros&numeros2)

@@ -1,12 +1,23 @@
-#######
+###############
 ## Diccionarios
-#######
+###############
+
+#Son colecciones cuya estructura tiene forma de llave:valor
+#Si se desea conocer el valor se tiene que tener una llave
+#Son conocidas como hash maps ya que no tiene un indice o un orden
+#solo son accesados mediante una firma que es única para cada llave
+#por eso solo permite que la llave sea un objeto inmutable
+
 valor=5
 d={"llave":valor,"llave2":valor+1,"llave3":valor,"llave":valor+10}
-
+#Imprime todo el diccionario
 print(d)
+#Imprime solo un valor
+print(d["llave"])
 
+#podemos tener asociados como llave enteros, cadenas y tuplas
 elementos={"O":"OXIGENO","H":"HELIO","AU":"ORO"}
+#Y crear nuevas llaves como vayamos necesitandolas
 elementos["C"]="CARBONO"
 print(elementos)
 

@@ -1,6 +1,6 @@
-#######
+###############
 # Do while loop
-#######
+###############
 
 #Este ciclo lo implementamos con un ciclo infinito
 #Necesitamos hacer por lo menos una vez el código
